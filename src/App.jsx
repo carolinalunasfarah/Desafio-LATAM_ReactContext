@@ -7,21 +7,15 @@ import Home from "./views/Home";
 const PHOTO_URL = "/photos.json";
 
 const App = () => {
-  return (
-    <div>
-      <Navbar />
+    return (
+        <div>
+            <Navbar />
 
-      <Routes>
-        <Route
-          path="/"
-          element={<Home />}
-        />
-        <Route
-          path="/favoritos"
-          element={<Favorites />}
-        />
-      </Routes>
-    </div>
-  );
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/favorites" element={<Favorites />} />
+            </Routes>
+        </div>
+    );
 };
 export default App;
