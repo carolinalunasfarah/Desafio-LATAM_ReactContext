@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { PhotosContext } from "../components/context/PhotosContext";
-import IconHeart from "./IconHeart";
+import IconHeart from "../components/IconHeart";
 
 const Gallery = () => {
     const { photos, setPhotos } = useContext(PhotosContext);

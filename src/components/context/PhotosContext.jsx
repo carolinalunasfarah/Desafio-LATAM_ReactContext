@@ -17,7 +17,6 @@ const PhotosProvider = ({ children }) => {
             setPhotos(
                 photosData.map((photo) => ({ ...photo, isFavorite: false }))
             );
-            console.log(photosData);
         } catch (error) {
             console.log(error.message);
         }
