@@ -21,11 +21,13 @@ const Gallery = () => {
                 <section
                     key={p}
                     onClick={() => addFavorite(photo.id)}
-                    className="photoCard"
-                    style={{ backgroundImage: `url(${photo.src.large})` }}>
-                    <IconHeart filled={photo.isFavorite} />
+                    className="photoGallery"
+                    style={{ backgroundImage: `url(${photo.src.portrait})` }}>
+                    <article className="galleryIcon">
+                        <IconHeart filled={photo.isFavorite} />
+                    </article>
                     <article>
-                        <p>{photo.alt}</p>
+                        <p className="galleryAlt">{photo.alt}</p>
                     </article>
                 </section>
             ))}
