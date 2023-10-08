@@ -53,6 +53,15 @@ a {
     align-items: center;
 }
 
+.photoFavorites {
+    background-size: cover;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .galleryIcon {
     align-self: flex-end;
     padding-right: 0.5rem;
@@ -66,4 +75,19 @@ a {
 
 .p-3 {
     padding: 30px;
+}
+
+/* Not found page */
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.notFoundImg {
+    width: 20%;
+}
+.notFound:hover {
+    cursor: default;
 }

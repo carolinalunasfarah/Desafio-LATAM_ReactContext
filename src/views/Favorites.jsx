@@ -22,7 +22,7 @@ const Favorites = () => {
                 <section
                     key={p}
                     onClick={() => deleteFavorite(photo.id)}
-                    className="photoGallery"
+                    className="photoFavorites"
                     style={{ backgroundImage: `url(${photo.src.portrait})` }}>
                     <article className="galleryIcon">
                         <IconHeart filled={photo.isFavorite} />

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 
 import Favorites from "./views/Favorites";
 import Home from "./views/Home";
+import NotFound from "./views/NotFound";
 
 const PHOTO_URL = "/photos.json";
 
@@ -13,6 +14,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/favorites" element={<Favorites />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </div>
     );

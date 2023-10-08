@@ -1,13 +1,3 @@
-# React + Vite
+# Desafio-LATAM_ReactContext
 
-## Install
-
-```bash
-npm install
-```
-
-## Run
-
-```bash
-npm run dev
-```
+## React Context
