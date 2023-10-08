@@ -55,7 +55,7 @@ a {
 
 .photoFavorites {
     background-size: cover;
-    height: 20rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
