@@ -1,66 +1,69 @@
 body {
-  margin: 0;
+    margin: 0;
+    align-items: center;
 }
 
 .App {
-  font-family: "Maitree", serif;
-  text-align: center;
-  color: #43a047;
+    font-family: "Maitree", serif;
+    text-align: center;
+    color: #43a047;
 }
 
 h1 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
-
 
 /* Navbar */
 a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 .navbar {
-  background: #43a047;
-  padding: 20px;
-  color: white;
+    padding: 0rem 2rem;
+    width: auto;
+    background: #43a047;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* gallery */
 .gallery {
-  display: grid;
-  gap: 10px;
+    display: grid;
+    gap: 10px;
 }
 
 .grid-columns-5 {
-  grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 .grid-columns-4 {
-  grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.gallery .photo {
-  cursor: pointer;
-  padding: 10px 10px 0px 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: left;
-  text-shadow: 0px 0px 15px black;
+.photoGallery {
+    background-size: cover;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.gallery .photo:hover {
-  box-shadow: 0px 0px 2px 1px black;
+.galleryIcon {
+    align-self: flex-end;
+    padding-right: 0.5rem;
 }
 
-.gallery .photo svg {
-  align-self: flex-end;
+.galleryAlt {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .p-3 {
-  padding: 30px;
+    padding: 30px;
 }
