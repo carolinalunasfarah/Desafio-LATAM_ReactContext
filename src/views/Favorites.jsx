@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { PhotosContext } from "../components/context/PhotosContext";
+import { PhotosContext } from ".././context/PhotosContext.jsx";
 import IconHeart from "../components/IconHeart";
 
 const Favorites = () => {
